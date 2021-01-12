@@ -1,0 +1,47 @@
+@media only screen {
+    body {
+        background: #000000;
+        color: #ffffff;
+        font-family: sans-serif;
+    }/*
+    h1,h2 {
+        font-family: "Segoe UI Light", sans-serif;
+    }
+    */
+    a {
+        color: #ff8000;
+    }
+    hr {
+        color: #808080;
+        height: 1px;
+        border-width: 0;
+        background-color: #808080;
+    }
+    p.nav {
+        color: #808080;
+    }
+    img.blog {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    body {
+       padding-left: 10%;
+       padding-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 649px) {
+    img.blog {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .mobilehidden {
+        display: none;
+    }
+}
